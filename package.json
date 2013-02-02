@@ -1,0 +1,33 @@
+{
+  "name": "habitus.MultiWebRTC-demo",
+  "description": "Example of multi user webrtc",
+  "version": "0.0.2-16",
+  "engines": {
+    "node": ">= 0.6.0",
+    "npm": "1.1.x"
+  },
+  "dependencies": {
+    "webrtc.io": "latest",
+    "express": "2.5.x",
+    "ws": "latest"
+  },
+  "subdomain": "habitus.MultiWebRTC-demo",
+  "scripts": {
+    "start": "node example/server.js"
+  },
+  "author": "Ben Brittain",
+  "contributors": [
+    {
+      "name": "Ben Brittain",
+      "email": "ben@brittain.org"
+    },
+    {
+      "name": "Dennis Mårtensson",
+      "email": "me@dennis.is"
+    },
+    {
+      "name": "David Peter",
+      "email": "david.a.peter@gmail.com"
+    }
+  ]
+}
